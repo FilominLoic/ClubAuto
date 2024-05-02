@@ -10,23 +10,25 @@
     top: 0%;
     width: 100%;
     height: 70px;
-    display: grid;
-    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    display:flex;
 }
 #mainheader ul{
     list-style: none;
-    display: grid;
-    grid-template-columns: 4fr 4fr 4fr 4fr;
-    padding: 20%;
+    top: 0%;
+    width: 100%;
+    height: 70px;
+    display: flex;
+   
 }
 #Mainfooter {
     background-color: #232628;
     color: #FFFFFF;
-    text-align: center;
     bottom: 0%;
     width: 100%;
     height: 100%;
     padding: 0%;
+    display:flex;
+
 }
 #mainNav a {
     color:black;
@@ -36,17 +38,36 @@
 }
 #mainNav a:hover{
     color: #FFFFFF;
+    display: flex;
 } 
 #mainNav ul{
     list-style: none;
     background-color: rgba(254, 254, 254, 0.805);
     padding: 0%;
     margin: 0%;
- 
+    display: flex;
+    flex-direction: ;
 }
 h1 {
     font-family: var(Montserrat);
 }
 h2 {
     font-family: var(Open);
+    text-align: center;
 }*
+@media screen and (min-width: 768px){
+    #mainheader {
+        grid-temp
+    }
+    #mainNav ul { 
+        flex-direction:column;
+    }
+    #Mainfooter{
+        flex-direction:row; 
+      
+}
+@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 1200px){
+
+}
