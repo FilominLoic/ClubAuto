@@ -4,21 +4,24 @@
 
 #mainheader {
     background-color: #232628;
-
-    color: #FFFFFF;
     position: fixed;
+    color: #FFFFFF;
     top: 0%;
     width: 100%;
     height: 70px;
-    display:flex;
+    padding: 0%;
+   display: flex;
+p
 }
 #mainheader ul{
     list-style: none;
     top: 0%;
     width: 100%;
     height: 70px;
-    display: flex;
-   
+    padding: 90px;
+o    text-align: right;
+     display: flex;
+        
 }
 #Mainfooter {
     background-color: #232628;
@@ -27,47 +30,54 @@
     width: 100%;
     height: 100%;
     padding: 0%;
-    display:flex;
-
+    text-align: center;
+    display: grid;
+    
 }
+
 #mainNav a {
     color:black;
     text-decoration: none;
     font-size: 1.5em;
     font-family: open, Verdana, Geneva, Tahoma, sans-serif;
 }
+
 #mainNav a:hover{
     color: #FFFFFF;
     display: flex;
 } 
+
 #mainNav ul{
     list-style: none;
     background-color: rgba(254, 254, 254, 0.805);
-    padding: 0%;
     margin: 0%;
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
+    padding: 0px;
+    top: 0%;
+justify-content: space-around;
+}
+
+#Pagecontent{
+
+
 }
 h1 {
     font-family: var(Montserrat);
+    text-align: center;
 }
+
 h2 {
     font-family: var(Open);
     text-align: center;
-}*
+}
+
 @media screen and (min-width: 768px){
-    #mainheader {
-        grid-temp
+    #mainNav ul {
+        flex-direction: row;
     }
-    #mainNav ul { 
-        flex-direction:column;
-    }
-    #Mainfooter{
-        flex-direction:row; 
-      
 }
-@media screen and (min-width: 1024px) {
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1024px) {}
 
-}
+@media screen and (min-width: 1200px){}

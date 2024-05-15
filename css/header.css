@@ -1,0 +1,28 @@
+
+.body{
+    margin:0rem;
+}
+
+.mainheader {
+    display: flex;
+    background-color: #232628;
+    color:white;
+    top: 0%;
+}
+.mainheader ul {
+    display: flex;
+    flex-direction: row;
+}
+.mainheader li {
+    display: flex;
+    margin-right: 1rem;
+}
+.mainheader h1{
+    padding-left: 16rem;
+
+}
+.logo {
+    width: 3rem;
+    height: auto;
+    margin-right: 1rem;
+}
