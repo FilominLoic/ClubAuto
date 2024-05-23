@@ -6,6 +6,8 @@
     background-color: #232628;
     color: #FFFFFF;
     font-size: small;
+    padding-left: 0rem;
+  
 }
 
 .Mainfooter li {
@@ -17,9 +19,15 @@ text-align: center;
 .Mainfooter ul {
     display: flex;
     flex-direction: row;
+    padding-left: 10rem;
+    padding-right: 7rem;
 }
 
 .Mainfooter div {
     text-align: center;
 
+
+}
+.Mainfooter p {
+    color: grey;
 }

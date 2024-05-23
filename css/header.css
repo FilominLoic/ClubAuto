@@ -1,28 +1,50 @@
 
 .body{
-    margin:0rem;
+    margin:2rem;
 }
 
 .mainheader {
-    display: flex;
     background-color: #232628;
     color:white;
-    top: 0%;
 }
 .mainheader ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: row
+
 }
 .mainheader li {
     display: flex;
     margin-right: 1rem;
+    padding: 1rem;
 }
 .mainheader h1{
-    padding-left: 16rem;
+    display: flex;
+    padding-left: 13rem;
 
 }
 .logo {
-    width: 3rem;
-    height: auto;
+    width: auto;
+    height: 3rem;
     margin-right: 1rem;
+}
+.mainnav a{
+text-decoration: none;
+color: black;
+
+}
+
+.mainnav{
+    display: flex;
+background-color: rgba(255, 255, 255, 0.633);
+top: 3rem;  
+height: 3rem;
+width: auto;
+
+
+}
+.mainnav ul{
+    display: flex;
+margin: 0rem;
+padding-left: 68rem;
+
 }

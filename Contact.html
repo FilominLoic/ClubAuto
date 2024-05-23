@@ -1,86 +1,113 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>Club Auto</title>
-        <link rel="stylesheet" href="/css/normalize.css"/>
-        <link rel="stylesheet" href="/css/nb.css"/>
-    </head>
-    <body>
-        <header id="mainheader">
-            <h1>Club Auto</h1>
-            <ul>
-                <li>  <img src="images/icone-adresse.png" alt="icone-adresse">
-            <P>Adresse:</P>
-            <Address> charles de Gaule <br> 75000 Paris</Address></li>
-                 <li>  <img src="images/icon-telephone.png" alt="icone-telephone">
-                <P>Telephone:<br>01 23 45 67 89</P>
-                 <li>ouverture: Du lundi au samedi <br>Horaires: De 9h à 17h</li>
-        </ul>
-        <nav id="mainNav">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="vente.html">Vente</a></li>
-                <li><a href="location.html">Location</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
 
+<head>
+    <meta charset="utf-8">
+    <title>Club Auto</title>
+    <link rel="stylesheet" href="/css/conctat.css" />
+</head>
+
+<body>
+    <header class="mainheader">
+        <ul>
+            <h1> Club Auto</h1>
+            <li> <img class="imageVehicule" src="images/icone-adresse.png" alt="icone-adresse">
+                Adresse:
+                <Address> <br> Avenue charles de Gaule <br>75000 Paris</Address>
+            </li>
+            <li> <img class="imageVehicule" src="images/icon-telephone.png" alt="icone-telephone">
+                Telephone: 01 23 45 67 89 </li>
+
+            <li>Ouverture: Du lundi au samedi <br> Horaires: De 9h à 17h</li>
+        </ul>
+        <main class="mainnav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="vente.html">Vente</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+        </main>
         </nav>
     </header><!--Ici ce termine le #mainhedear-->
-    <main id="pageContent" class="oneCol contact">
-      <h2>Contactez nous</h2>
-    <form id="frmcontact" action="Merci.html">
-<div>
-    <div>
-        <label for="fName">Prénom</label>
-        <input type="text" name="fName" id="fName" required>
-    </div>
-    <div>
-        <label for="LName">Nom de famille</label>
-        <input type="text" name="LName" id="LName" required>
-    </div>
-    <div>
-        <label for="email">Email</label>
-        <input type="email" name="email2" id="email2" required>
-    </div>
-    <div>
-        <label for="Number">Téléphone</label>
-        <input type="text" name="Number" id="Number" required>
-    </div>
-    <div>
-        <label for="message">Message</label>
-        <textarea name="message" id="message" required></textarea>
-    </div>
-</div>
-<button type="submit">Envoyer</button>
-</form>
-</main><!-- Ici se termine le #pagecontent-->
-    <footer id="Mainfooter">
-        <h2>Club auto</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut dolor cursus dolor faucibus tincidunt vel ut arcu. In quis nulla ut ligula cursus lobortis eu hendrerit ex.</p>
-    <h2>Horaires d'ouverture</h2>
-        <p>Lundi - Samedi: 9:00 - 17:00<br> Dimanche et jours férié: Fermé</p>
-    <h2>Newsletter</h2>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required><p>Inscrivez-vous pour recvoir les dernières offres</p>
-        <h2>Réseaux sociaux</h2>
-          <div>
-            <a href="https://www.facebook.com/clubautocentrale/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
-        </div>
-         <div>
-            <a href="https://twitter.com/clubautoconseil?lang=fr" target="_blank"><img src="images/twitter.png.png" alt="twitter"></a>
-        </div>
+    <main class="oneColcontact">
+
+        <form class="frmcontact" action="Merci.html">
+
+            <ul>
+                <div>
+                    <li>
+                        <h2>Contactez nous</h2>
+                    </li>
+                    <li>
+                        <ol>
+                            <label for="fName">Prénom</label>
+                        </ol>
+                        <ol>
+                            <input type="text" name="fName" class="fName" required>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol><label for="email">Email</label></ol>
+                        <ol> <input type="email" name="email2" class="email2" required> </ol>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <ol> <label class="nomfrm" for="LName">Nom de famille</label></ol>
+                        <ol><input type="text" name="LName" class="LName" required></ol>
+                    </li>
+                    <li>
+                        <ol><label for="Number">Téléphone</label></ol>
+                        <ol> <input type="text" name="Number" class="Number" required></ol>
+                    </li>
+                </div>
+
+                <div>
+                    <ol> <label for="message">Message</label></ol>
+                    <ol><textarea name="message" class="message" required></textarea></ol>
+                </div>
+            </ul>
+            <button class="boutonfrm" type="submit">Envoyer</button>
+
+
+        </form>
+    </main><!-- Ici se termine le #pagecontent-->
+    <footer class="Mainfooter"><!--ici commence le #mainfooter-->
+        <ul>
+            <li>
+                <h2>Club auto</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Donec ut dolor cursus dolor faucibus
+                    tincidunt vel ut arcu. <br> In quis nulla ut ligula cursus lobortis eu hendrerit ex.</p>
+            </li>
+            <li>
+                <h2>Horaires d'ouverture</h2>
+                <p>Lundi - Samedi: 9:00 - 17:00<br> Dimanche et jours férié: Fermé</p>
+            </li>
+            <li>
+                <h2>Newsletter</h2>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <p>Inscrivez-vous pour recvoir les dernières offres</p>
+            </li>
+            <li>
+                <h2>Réseaux sociaux</h2>
+                <a href="https://www.facebook.com/clubautocentrale/" target="_blank"><img src="images/facebook.png"
+                        alt="facebook"></a>
+                <a href="https://twitter.com/clubautoconseil?lang=fr" target="_blank"><img src="images/twitter.png.png"
+                        alt="twitter"></a>
+                <a href="https://www.instagram.com/clubautozone/?hl=fr" target="_blank"><img src="images/insta.png"
+                        alt="instagram"></a>
+                <a href="#"><img src="images/googlePlus.png" alt="googlePlus"></a>
+                <a href="https://youtube.com/@clubautoconseil9453" target="b
+           "><img src="images/youtube.png" alt="youtube "></a>
+            </li>
+        </ul>
         <div>
-            <a href="https://www.instagram.com/clubautozone/?hl=fr" target="_blank"><img src="images/insta.png" alt="instagram"></a>
+            <p>Copyright © Club Auto - tous droits réservés</p>
         </div>
-        <div>
-            <a href="#"><img src="images/googlePlus.png" alt="googlePlus"></a>
-        </div>
-        <div>
-            <a href="https://youtube.com/@clubautoconseil9453" target="b
-            "><img src="images/youtube.png" alt="youtube "></a>
-        </div>
-           <p>Copyright © Club Auto - tous droits réservés</p>
     </footer><!--ici ce termine le mainfooter-->
-    </body>
+</body>
+
 </html>

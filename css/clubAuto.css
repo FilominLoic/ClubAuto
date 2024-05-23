@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+    margin:2rem;
+}
+
+.mainheader {
+    background-color: #232628;
+    color:white;
+    font-family: 'Open Sans';
+ 
+}
+.mainheader ul {
+    display: flex;
+    flex-direction: row
+
+}
+.mainheader li {
+    display: flex;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+.mainheader h1{
+    display: flex;
+    padding-left: 13rem;
+    font-family: 'Montserrat';
+
+}
+.imageVehicule {
+    width: auto;
+    height: 3rem;
+    margin-right: 1rem;
+    margin: 2rem;
+}
+.mainnav a{
+text-decoration: none;
+color: black;
+
+}
+
+.mainnav{
+    display: flex;
+background-color: rgba(255, 255, 255, 0.633);
+top: 3rem;  
+height: 3rem;
+width: auto;
+
+
+}
+.mainnav ul{
+    display: flex;
+margin: 0rem;
+padding-left: 68rem;
+
+}
+.Mainfooter {
+    background-color: #232628;
+    color: #FFFFFF;
+    font-size: small;
+    padding-left: 0rem;
+    margin: 2rem;
+  
+}
+
+.Mainfooter li {
+list-style: none;
+margin-right: 4rem;
+text-align: center;
+}
+
+.Mainfooter ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10rem;
+    padding-right: 7rem;
+}
+
+.Mainfooter div {
+    text-align: center;
+}
+.Mainfooter p {
+    color: grey;
+}
+.PageContent h1 {
+    background-color: #232628;
+    text-align: center;
+    color: white;
+    background-position: 8rem;
+    margin-top: 0rem;
+    padding: 2rem;
+    font-family: 'Montserrat';
+    margin: 2rem;
+}
+
+.PageContent h2 {
+    text-align: center;
+    color: black;
+    padding: 1rem;
+}
+
+.PageContent ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 2rem;
+    
+}
+
+.PageContent li {
+     text-align: center;
+}
+
+.logo { 
+    width: 45rem;
+    height: auto;
+
+}
+
+.PageContent ol{
+    list-style: none ;
+}
+
+.colonne {
+background-image: url(/images/vente-location.jpg);
+background-repeat: no-repeat;
+padding-bottom: 25rem;
+padding-right: 3rem;
+text-align: center;
+margin: 2rem;
+
+}
+
+.leftcol {
+    background-color:#fab63779;
+    padding: 2rem;
+    margin: 1rem;
+    font-family: 'Open Sans';
+}
+
+.rightcol {
+    background-color: #ff4848aa;
+    padding: 2rem;
+    margin: 1rem ;
+    font-family: 'Open Sans';
+}
+
+.photo{
+width: 15rem;
+height: auto;
+}
+
+.vente{
+    background-color: #232628;
+    color: white;
+    padding: 5rem;
+    margin: 2rem;
+
+}
+
+.vente p {
+    background-color: rgba(128, 128, 128, 0.63);
+    padding: 1rem;
+    justify-content: space-around;
+    display: flex;
+    font-family: 'Open Sans';
+}
+
+.vente h2 {
+    color: white;
+}
+
+.section h2 {
+    color: black;
+}
+
+.section ul { 
+    display: flex;
+    justify-content: space-around;
+    padding-right: 2rem;
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.section div {
+    padding: 1rem ;
+}
+
+.icon1 {
+    width: 4rem;
+    height: auto;
+}
+
+.section {
+    text-align: center;
+}
+
+.section a{
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.fin {
+background-image: url(/images/vehicule3.jpg);
+padding-left: 8rem;
+width: auto;
+height: auto;
+margin: 2rem;
+display: flex;
+ 
+}
+
+
+.fin div {
+    background-color: #fab63785;
+    width: 25rem;
+    height: auto;
+    padding: 5rem;
+    margin: 5rem;
+    font-family:'Open Sans';
+}
+
+.fin h1 {
+    color: black;
+    background-color: #fab63700;
+    font-family: 'Montserrat';
+}
+
+@media screen and (min-width: 768px){
+    #mainNav ul {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) {}
+
+@media screen and (min-width: 1200px){}

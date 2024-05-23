@@ -1,0 +1,138 @@
+.body {
+    margin:2rem;
+}
+
+.PageContent h1 {
+    text-align: center;
+    color: white;
+    background-position: 8rem;
+    margin-top: 0rem;
+    padding: 2rem;
+}
+
+.PageContent h2 {
+    text-align: center;
+    color: black;
+    padding: 1rem;
+}
+
+.PageContent ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 2rem;
+    
+}
+
+.PageContent li {
+     text-align: center;
+}
+
+.logo { 
+    width: 45rem;
+    height: auto;
+
+}
+
+.PageContent ol{
+    list-style: none ;
+}
+
+.colonne {
+background-image: url(/images/vente-location.jpg);
+background-repeat: no-repeat;
+padding-bottom: 25rem;
+padding-right: 3rem;
+text-align: center;
+margin: 2rem;
+
+}
+
+.leftcol {
+    background-color:#fab63779;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.rightcol {
+    background-color: #ff4848aa;
+    padding: 2rem;
+    margin: 1rem ;
+}
+
+.photo{
+width: 15rem;
+height: auto;
+}
+
+.vente{
+    background-color: #232628;
+    color: white;
+    padding: 5rem;
+    margin: 2rem;
+
+}
+
+.vente p {
+    background-color: rgba(128, 128, 128, 0.63);
+    padding: 1rem;
+    justify-content: space-around;
+    display: flex;
+}
+
+.vente h2 {
+    color: white;
+}
+
+.section h2 {
+    color: black;
+}
+
+.section ul { 
+    display: flex;
+    justify-content: space-around;
+    padding-right: 2rem;
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.section div {
+    padding: 1rem ;
+}
+
+.icon1 {
+    width: 4rem;
+    height: auto;
+}
+
+.section {
+    text-align: center;
+}
+
+.section a{
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.fin {
+background-image: url(/images/vehicule3.jpg);
+padding-left: 8rem;
+width: auto;
+height: auto;
+margin: 2rem;
+display: flex;
+}
+
+.fin div {
+    background-color: #fab63785;
+    width: 25rem;
+    height: auto;
+    padding: 5rem;
+    margin: 5rem;
+}
+
+.fin h1 {
+    color: black;
+}

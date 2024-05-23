@@ -1,0 +1,175 @@
+.body {
+    margin: 2rem;
+}
+
+.mainheader {
+    background-color: #232628;
+    color: white;
+}
+
+.mainheader ul {
+    display: flex;
+    flex-direction: row
+}
+
+.mainheader li {
+    display: flex;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+.mainheader h1 {
+    display: flex;
+    padding-left: 13rem;
+
+}
+
+.logo {
+    width: auto;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+.mainnav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.mainnav {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.633);
+    top: 3rem;
+    height: 3rem;
+    width: auto;
+
+
+}
+
+.mainnav ul {
+    display: flex;
+    margin: 0rem;
+    padding-left: 68rem;
+
+}
+
+
+
+
+
+
+
+.pageContentlocation h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    list-style: none;
+    background-image: url(/images/vente-location.jpg);
+    background-repeat: no-repeat;
+    padding-left: 10rem;
+    width: auto;
+    height: 10rem;
+}
+
+.article {
+    margin-left: 10rem;
+    border-top-style: solid;
+    border-color: gray;
+    height: 20rem;
+    width: 60rem;
+}
+
+.pastillePrix {
+    background-color: #6C98E1;
+    border-style: solid;
+    border-color: rgba(101, 140, 217, 0.563);
+}
+
+.article ul {
+    display: flex;
+
+}
+
+.article li {
+    display: flex;
+
+}
+
+.article a {
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.imagelocationvehicule {
+    height: 10rem;
+    width: auto;
+    margin-top: 1rem;
+}
+
+
+
+.recherche {
+    border-style: solid;
+    border-color: #232628;
+    height: auto;
+    width: 15rem;
+}
+
+.blogsearch h2 {
+    margin-top: 1rem;
+    color: #FFFFFF;
+
+}
+
+.blogsearch {
+    background-color: #232628;
+    list-style: none;
+}
+
+.blogsearch ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+
+.reset {
+    text-decoration: none;
+    text-align: center;
+    height: 3rem;
+    width: 10rem;
+    margin-left: 2rem;
+    background-color: #6C98E1;
+
+}
+
+.Mainfooter {
+    background-color: #232628;
+    color: #FFFFFF;
+    font-size: small;
+    padding-left: 0rem;
+
+}
+
+.Mainfooter li {
+    list-style: none;
+    margin-right: 4rem;
+    text-align: center;
+}
+
+.Mainfooter ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10rem;
+    padding-right: 7rem;
+}
+
+.Mainfooter div {
+    text-align: center;
+
+
+}
+
+.Mainfooter p {
+    color: grey;
+}
