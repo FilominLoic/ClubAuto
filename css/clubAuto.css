@@ -2,72 +2,78 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.body{
-    margin:2rem;
+.body {
+    margin: 2rem;
 }
 
 .mainheader {
     background-color: #232628;
-    color:white;
+    color: white;
     font-family: 'Open Sans';
- 
+
 }
+
 .mainheader ul {
     display: flex;
     flex-direction: row
-
 }
+
 .mainheader li {
     display: flex;
     margin-right: 1rem;
     padding: 1rem;
 }
-.mainheader h1{
+
+.mainheader h1 {
     display: flex;
     padding-left: 13rem;
     font-family: 'Montserrat';
 
 }
+
 .imageVehicule {
     width: auto;
     height: 3rem;
     margin-right: 1rem;
     margin: 2rem;
 }
-.mainnav a{
-text-decoration: none;
-color: black;
+
+.mainnav a {
+    text-decoration: none;
+    color: black;
 
 }
 
-.mainnav{
+.mainnav {
     display: flex;
-background-color: rgba(255, 255, 255, 0.633);
-top: 3rem;  
-height: 3rem;
-width: auto;
+    background-color: rgba(255, 255, 255, 0.633);
+    top: 3rem;
+    height: 3rem;
+    width: auto;
 
 
 }
-.mainnav ul{
+
+.mainnav ul {
     display: flex;
-margin: 0rem;
-padding-left: 68rem;
+    margin: 0rem;
+    padding-left: 68rem;
 
 }
+
 .Mainfooter {
     background-color: #232628;
     color: #FFFFFF;
     font-size: small;
     padding-left: 0rem;
     margin: 2rem;
-  
+
 }
 
 .Mainfooter li {
-list-style: none;
-margin-right: 4rem;
-text-align: center;
+    list-style: none;
+    margin-right: 4rem;
+    text-align: center;
 }
 
 .Mainfooter ul {
@@ -80,9 +86,11 @@ text-align: center;
 .Mainfooter div {
     text-align: center;
 }
+
 .Mainfooter p {
     color: grey;
 }
+
 .PageContent h1 {
     background-color: #232628;
     text-align: center;
@@ -105,35 +113,35 @@ text-align: center;
     list-style: none;
     justify-content: space-around;
     margin: 2rem;
-    
+
 }
 
 .PageContent li {
-     text-align: center;
+    text-align: center;
 }
 
-.logo { 
+.logo {
     width: 45rem;
     height: auto;
 
 }
 
-.PageContent ol{
-    list-style: none ;
+.PageContent ol {
+    list-style: none;
 }
 
 .colonne {
-background-image: url(/images/vente-location.jpg);
-background-repeat: no-repeat;
-padding-bottom: 25rem;
-padding-right: 3rem;
-text-align: center;
-margin: 2rem;
+    background-image: url(/images/vente-location.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 25rem;
+    padding-right: 3rem;
+    text-align: center;
+    margin: 2rem;
 
 }
 
 .leftcol {
-    background-color:#fab63779;
+    background-color: #fab63779;
     padding: 2rem;
     margin: 1rem;
     font-family: 'Open Sans';
@@ -142,16 +150,16 @@ margin: 2rem;
 .rightcol {
     background-color: #ff4848aa;
     padding: 2rem;
-    margin: 1rem ;
+    margin: 1rem;
     font-family: 'Open Sans';
 }
 
-.photo{
-width: 15rem;
-height: auto;
+.photo {
+    width: 15rem;
+    height: auto;
 }
 
-.vente{
+.vente {
     background-color: #232628;
     color: white;
     padding: 5rem;
@@ -175,7 +183,7 @@ height: auto;
     color: black;
 }
 
-.section ul { 
+.section ul {
     display: flex;
     justify-content: space-around;
     padding-right: 2rem;
@@ -186,7 +194,7 @@ height: auto;
 }
 
 .section div {
-    padding: 1rem ;
+    padding: 1rem;
 }
 
 .icon1 {
@@ -198,19 +206,19 @@ height: auto;
     text-align: center;
 }
 
-.section a{
+.section a {
     text-decoration: none;
     font-size: x-large;
 }
 
 .fin {
-background-image: url(/images/vehicule3.jpg);
-padding-left: 8rem;
-width: auto;
-height: auto;
-margin: 2rem;
-display: flex;
- 
+    background-image: url(/images/vehicule3.jpg);
+    padding-left: 8rem;
+    width: auto;
+    height: auto;
+    margin: 2rem;
+    display: flex;
+
 }
 
 
@@ -220,7 +228,7 @@ display: flex;
     height: auto;
     padding: 5rem;
     margin: 5rem;
-    font-family:'Open Sans';
+    font-family: 'Open Sans';
 }
 
 .fin h1 {
@@ -229,7 +237,7 @@ display: flex;
     font-family: 'Montserrat';
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     #mainNav ul {
         flex-direction: row;
     }
@@ -237,4 +245,4 @@ display: flex;
 
 @media screen and (min-width: 1024px) {}
 
-@media screen and (min-width: 1200px){}
+@media screen and (min-width: 1200px) {}

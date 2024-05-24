@@ -53,10 +53,16 @@
 
 }
 
-
-
-
-
+.locationrecherche {
+    text-align: center;
+}
+ .pageContentlocation ul{
+    display: flex;
+    padding-left: 0rem;
+ }
+ .articleGauche {
+    margin-right: 3rem;
+ }
 
 
 .pageContentlocation h1 {
@@ -74,7 +80,7 @@
     margin-left: 10rem;
     border-top-style: solid;
     border-color: gray;
-    height: 20rem;
+    height: 15rem;
     width: 60rem;
 }
 
@@ -82,6 +88,7 @@
     background-color: #6C98E1;
     border-style: solid;
     border-color: rgba(101, 140, 217, 0.563);
+
 }
 
 .article ul {
@@ -110,26 +117,45 @@
 .recherche {
     border-style: solid;
     border-color: #232628;
-    height: auto;
+    height: 44rem;
     width: 15rem;
+    padding-left: 0rem;
+
+}
+.recherche div {
+    text-align: center;
 }
 
+.recherche li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.recherche ul {
+    list-style: none;
+    padding-left: 0rem;
+}
 .blogsearch h2 {
     margin-top: 1rem;
     color: #FFFFFF;
+    margin-left: 1rem;
 
 }
 
 .blogsearch {
     background-color: #232628;
     list-style: none;
+    padding-top: 1rem;
+   
 }
 
 .blogsearch ul {
     display: flex;
     list-style: none;
+     padding-left: 0rem;
+     margin-top: 0rem;
 }
-
 
 
 
@@ -138,7 +164,7 @@
     text-align: center;
     height: 3rem;
     width: 10rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
     background-color: #6C98E1;
 
 }
