@@ -4,18 +4,20 @@
 
 .body {
     margin: 2rem;
+    font-size: 'Open Sans';
 }
 
 .mainheader {
     background-color: #232628;
     color: white;
     font-family: 'Open Sans';
+    margin: 2rem;
 
 }
 
 .mainheader ul {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
 }
 
 .mainheader li {
@@ -32,8 +34,8 @@
 }
 
 .imageVehicule {
-    width: auto;
-    height: 3rem;
+    max-width: auto;
+    max-height: 3rem;
     margin-right: 1rem;
     margin: 2rem;
 }
@@ -41,6 +43,7 @@
 .mainnav a {
     text-decoration: none;
     color: black;
+
 
 }
 
@@ -50,6 +53,7 @@
     top: 3rem;
     height: 3rem;
     width: auto;
+    font-family: 'Open Sans';
 
 
 }
@@ -57,7 +61,8 @@
 .mainnav ul {
     display: flex;
     margin: 0rem;
-    padding-left: 68rem;
+    padding-left: 65rem;
+    font-family: 'Open Sans';
 
 }
 
@@ -67,13 +72,14 @@
     font-size: small;
     padding-left: 0rem;
     margin: 2rem;
+    font-family: 'Open Sans';
 
 }
 
 .Mainfooter li {
     list-style: none;
-    margin-right: 4rem;
     text-align: center;
+    width: 19rem;
 }
 
 .Mainfooter ul {
@@ -85,10 +91,16 @@
 
 .Mainfooter div {
     text-align: center;
+    font-family: 'Open Sans';
 }
 
 .Mainfooter p {
     color: grey;
+}
+
+.Mainfooter h2 {
+    font-family: 'Montserrat';
+
 }
 
 .PageContent h1 {
@@ -106,6 +118,14 @@
     text-align: center;
     color: black;
     padding: 1rem;
+    font-family: 'Montserrat';
+}
+
+.imagesvehiculeenligne {
+    height: auto;
+    width: 91rem;
+    margin-left: 2rem;
+
 }
 
 .PageContent ul {
@@ -113,6 +133,7 @@
     list-style: none;
     justify-content: space-around;
     margin: 2rem;
+    font-family: 'Open Sans';
 
 }
 
@@ -136,22 +157,24 @@
     padding-bottom: 25rem;
     padding-right: 3rem;
     text-align: center;
-    margin: 2rem;
+    font-family: 'Open Sans';
 
 }
 
 .leftcol {
-    background-color: #fab63779;
+    background-color: #fab637c5;
     padding: 2rem;
     margin: 1rem;
     font-family: 'Open Sans';
+    color: #FFFFFF;
 }
 
 .rightcol {
-    background-color: #ff4848aa;
+    background-color: #fd1414b7;
     padding: 2rem;
     margin: 1rem;
     font-family: 'Open Sans';
+    color: #FFFFFF;
 }
 
 .photo {
@@ -177,10 +200,12 @@
 
 .vente h2 {
     color: white;
+    font-family: 'Montserrat';
 }
 
 .section h2 {
     color: black;
+    font-family: 'Montserrat';
 }
 
 .section ul {
@@ -191,6 +216,7 @@
 
 .section h3 {
     text-align: center;
+    font-family: 'Montserrat';
 }
 
 .section div {
@@ -204,11 +230,13 @@
 
 .section {
     text-align: center;
+    font-family: 'Open Sans';
 }
 
 .section a {
     text-decoration: none;
     font-size: x-large;
+    font-family: 'Montserrat';
 }
 
 .fin {
@@ -237,12 +265,415 @@
     font-family: 'Montserrat';
 }
 
-@media screen and (min-width: 768px) {
-    #mainNav ul {
+
+.locationrecherche {
+    text-align: center;
+}
+
+.pageContentlocation ul {
+    display: flex;
+    padding-left: 0rem;
+}
+
+.articleGauche {
+    margin-right: 3rem;
+}
+
+
+.pageContentlocation h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    list-style: none;
+    background-image: url(/images/vente-location.jpg);
+    background-repeat: no-repeat;
+    padding-left: 10rem;
+    width: auto;
+    height: 10rem;
+    font-family: 'Montserrat';
+}
+
+.article h2 {
+    font-family: 'Montserrat';
+}
+
+.article {
+    margin-left: 10rem;
+    border-top-style: solid;
+    border-color: gray;
+    height: 15rem;
+    width: 60rem;
+    font-family: 'Open Sans';
+    color: black;
+    text-decoration: none;
+}
+
+.pastillePrix {
+    background-color: #6C98E1;
+    border-style: solid;
+    border-color: rgba(101, 140, 217, 0.563);
+    font-family: 'Open Sans';
+
+}
+
+.article ul {
+    display: flex;
+    text-decoration: none;
+
+}
+
+.article li {
+    display: flex;
+
+}
+
+.article a {
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.imagelocationvehicule {
+    height: 10rem;
+    width: auto;
+    margin-top: 1rem;
+}
+
+
+
+.recherche {
+    border-style: solid;
+    border-color: #232628;
+    height: 44rem;
+    width: 15rem;
+    padding-left: 0rem;
+
+}
+
+.recherche div {
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.recherche li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    font-family: 'Open Sans';
+}
+
+.recherche ul {
+    list-style: none;
+    padding-left: 0rem;
+    font-family: 'Open Sans';
+}
+
+.blogsearch h2 {
+    margin-top: 1rem;
+    color: #FFFFFF;
+    margin-left: 1rem;
+    font-family: 'Montserrat';
+
+}
+
+.blogsearch {
+    background-color: #232628;
+    list-style: none;
+    padding-top: 1rem;
+
+}
+
+.blogsearch ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0rem;
+    margin-top: 0rem;
+}
+
+
+
+.reset {
+    text-decoration: none;
+    text-align: center;
+    height: 3rem;
+    width: 10rem;
+    margin-left: 3rem;
+    background-color: #6C98E1;
+    font-family: 'Open Sans';
+
+}
+
+.oneColcontact {
+    background: url(/images/vehicule3.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    font-family: 'Open Sans';
+
+}
+
+.frmcontact {
+    text-align: center;
+    background-color: #ECEFF3;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+}
+
+.frmcontact h2 {
+    font-size: xx-large;
+    font-family: 'Montserrat';
+}
+
+.frmcontact ul {
+    display: flex;
+    list-style: none;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+}
+
+.frmcontact li {
+    text-align: left;
+    margin: 2rem;
+}
+
+.fName {
+    width: 15rem;
+    height: 2rem;
+}
+
+.email2 {
+    width: 15rem;
+    height: 2rem;
+}
+
+.LName {
+    width: 15rem;
+    height: 2rem;
+}
+
+.Number {
+    width: 15rem;
+    height: 2rem;
+}
+
+
+
+.message {
+    height: 15rem;
+    width: 20rem;
+    resize: none;
+
+}
+
+.boutonfrm {
+    background-color: #6C98E1;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: x-large;
+
+}
+
+.PageContentvehiculedetail {
+    margin-left: 10rem;
+
+}
+
+.PageContentvehiculedetail p {
+    width: 50rem;
+    height: 32rem;
+}
+
+.titrevehicule h2 {
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: xx-large;
+    font-weight: 900;
+
+}
+
+.photovehiculedetail {
+    height: auto;
+    width: 60rem;
+}
+
+.navdescript {
+
+    color: white;
+
+}
+
+.navdescript ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0rem;
+    margin-bottom: 3rem;
+
+
+}
+
+.navdescript li {
+
+    height: 2rem;
+    width: 13rem;
+    background-color: #232628;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    /*Ici ton code css pour les tout petit téléphone en dessous de 600px*/
+
+    .imagesvehiculeenligne {
+        display: none;
+    }
+
+    .PageContent ul {
+        flex-direction: column;
+        padding-left: 0%;
+    }
+
+    .logo {
+        width: 30rem;
+        height: auto;
+    }
+
+    .colonne {
+        flex-direction: column;
+        padding-bottom: 0rem;
+        padding-right: 0%;
+    }
+
+    .leftcol {
+        padding: 1rem;
+        margin: 1rem;
+
+    }
+
+    .rightcol {
+        margin-top: 8rem;
+
+    }
+
+    .vente ul {
+        flex-direction: column;
+    }
+
+    .section ul {
+        flex-direction: column;
+    }
+
+    .fin {
+        padding: 0rem;
+    }
+
+    .fin div {
+        padding: 2rem;
+        margin: 2rem;
+
+    }
+
+    .article {
+        margin-left: 2rem;
+        height: 35rem;
+        width: 33rem;
+        text-align: center;
+    }
+
+    .article ul {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .articleGauche {
+        margin-top: 2rem;
+    }
+
+    .imagelocationvehicule {
+        height: 18rem;
+        width: auto;
+        margin-left: 4rem;
+    }
+
+    .pageContentlocation ul {
+        flex-direction: column-reverse;
+    }
+
+    .recherche {
+        width: 27rem;
+        height: auto;
+        margin-left: 5rem;
+        padding-bottom: 1rem;
+    }
+
+    .logorecherche {
+        height: auto;
+        width: 5rem;
+        margin-left: 5rem;
+    }
+
+    .blogsearch ul {
         flex-direction: row;
+        width: 10rem;
+    }
+
+    .reset {
+        margin-left: 9rem;
+    }
+
+    .frmcontact ul {
+        flex-direction: column;
+    }
+
+    .oneColcontact {
+        width: auto;
+        height: auto;
+        margin: 0rem;
+    }
+
+    .Mainfooter ul {
+        flex-direction: column;
+        padding-left: 7rem;
+        padding-right: 4rem;
+
+    }
+
+    .Mainfooter li {
+        height: auto;
+        text-align: center;
+        width: 19rem;
     }
 }
 
-@media screen and (min-width: 1024px) {}
+/*Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /*Ici ton code css pour les téléphone au dessus de 600 px*/
+}
 
-@media screen and (min-width: 1200px) {}
+/* Medium devices (landscape tablets, 768px and up)*/
+
+@media only screen and (min-width: 768px) {
+    /*Ici ton code css pour les tablettes de 768px à plus.*/
+
+    .Mainfooter li {
+        list-style: none;
+        text-align: center;
+        width: 19rem;
+
+    }
+
+    .Mainfooter ul {
+        display: flex;
+        flex-direction: row;
+        padding-left: 10rem;
+        padding-right: 7rem;
+    }
+}
