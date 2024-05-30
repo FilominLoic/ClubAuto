@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Club Auto</title>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/clubAuto.css" />
@@ -22,15 +22,15 @@
 
             <li>Ouverture: Du lundi au samedi <br> Horaires: De 9h à 17h</li>
         </ul>
-        <main class="mainnav">
-            <nav>
-                <ul>
-                    <li><a href="accueil.html">Accueil</a></li>
-                    <li><a href="vente.html">Vente</a></li>
-                    <li><a href="location.html">Location</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                </ul>
-        </main>
+
+        <nav class="mainnav">
+            <ul>
+                <li><a href="accueil.html" title="vers la page d'accueil du site club Auto">Accueil</a></li>
+                <li><a href="vente.html" title="vers la page de vente de vehicule">Vente</a></li>
+                <li><a href="location.html" title="vers la page de loction de vehicule">Location</a></li>
+                <li><a href="Contact.html" title=" vers la page de contact u site">Contact</a></li>
+            </ul>
+
         </nav>
     </header><!--Ici ce termine le #mainhedear-->
     <main class="oneColcontact">
@@ -47,28 +47,33 @@
                             <label for="fName">Prénom</label>
                         </ol>
                         <ol>
-                            <input type="text" name="fName" class="fName" required>
+                            <input type="text" name="fName" class="fName" required autofocus tabindex="1"
+                                placeholder="Mon prénom" title="Entrez votre Prénom">
                         </ol>
                     </li>
                     <li>
                         <ol><label for="email">Email</label></ol>
-                        <ol> <input type="email" name="email2" class="email2" required> </ol>
+                        <ol> <input type="email" name="email2" class="email2" required tabindex="4"
+                                placeholder="mon email" title="Entrez votre Email"> </ol>
                     </li>
                 </div>
                 <div>
                     <li>
                         <ol> <label class="nomfrm" for="LName">Nom de famille</label></ol>
-                        <ol><input type="text" name="LName" class="LName" required></ol>
+                        <ol><input type="text" name="LName" class="LName" required tabindex="2"
+                                placeholder="mon Nom de famille" title="Entrez votre Nom de famille"></ol>
                     </li>
                     <li>
                         <ol><label for="Number">Téléphone</label></ol>
-                        <ol> <input type="text" name="Number" class="Number" required></ol>
+                        <ol> <input type="text" name="Number" class="Number" required tabindex="3"
+                                placeholder="Mon numéro de Téléphone" title="Entrez votre numéro de Téléphone"></ol>
                     </li>
                 </div>
 
                 <div>
                     <ol> <label for="message">Message</label></ol>
-                    <ol><textarea name="message" class="message" required></textarea></ol>
+                    <ol><textarea name="message" class="message" required tabindex="5" placeholder="Mon message"
+                            title="Entrez votre message"></textarea></ol>
                 </div>
             </ul>
             <button class="boutonfrm" type="submit">Envoyer</button>
