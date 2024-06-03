@@ -10,8 +10,19 @@
 </head>
 
 <body>
-    <header class="mainheader">
-        <ul>
+    <!DOCTYPE html>
+    <html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Club Auto</title>
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/clubAuto.css" />
+    </head>
+
+    <body>
+        <header class="mainheader">
             <h1> Club Auto</h1>
             <li> <img class="imageVehicule" src="images/icone-adresse.png" alt="icone-adresse">
                 Adresse:
@@ -21,18 +32,23 @@
                 Telephone: 01 23 45 67 89 </li>
 
             <li>Ouverture: Du lundi au samedi <br> Horaires: De 9h à 17h</li>
-        </ul>
+            <nav class="mainnav">
+                <h2 class="accessibility">Menu Principal</h2>
+                <p class="accessibility"><a href=".PageContent"
+                        title="Accédez directement Au contenu principal de cette page">Passer le Menu</a></p>
+                <ul>
+                    <li><a href="index.html" title="vers la page d'accueil du site club Auto">Accueil</a></li>
+                    <li><a href="vente.html" title="vers la page de vente de vehicule">Vente</a></li>
+                    <li><a href="location.html" title="vers la page de loction de vehicule">Location</a></li>
+                    <li><a href="Contact.html" title=" vers la page de contact u site">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menutoggle"><img class="hamburger" src="/images/menu-principal.png"
+                    alt="Ouvrir ou fermer le menu" /></button>
+        </header><!--Ici ce termine le #mainhedear-->
 
-        <nav class="mainnav">
-            <ul>
-                <li><a href="accueil.html" title="vers la page d'accueil du site club Auto">Accueil</a></li>
-                <li><a href="vente.html" title="vers la page de vente de vehicule">Vente</a></li>
-                <li><a href="location.html" title="vers la page de loction de vehicule">Location</a></li>
-                <li><a href="Contact.html" title=" vers la page de contact u site">Contact</a></li>
-            </ul>
 
-        </nav>
-    </header><!--Ici ce termine le #mainhedear-->
+    </html>
     <main class="oneColcontact">
 
         <form class="frmcontact" action="Merci.html">

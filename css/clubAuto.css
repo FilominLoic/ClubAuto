@@ -19,16 +19,19 @@
     color: white;
     font-family: 'Open Sans';
     margin: 1rem;
-    display: grid;
-    grid-template-columns: 85px, 85px, 85px, 85px, 85px, 85px, 85px;
+    display: flex;
 
 }
 
-.mainheader ul {}
+.mainheader ul {
+    display: flex;
+    list-style: none;
+}
 
 .mainheader li {
     margin-right: 1rem;
     padding: 1rem;
+    display: flex;
 }
 
 .mainheader h1 {
@@ -65,26 +68,26 @@
 
 }
 
-.menutoggle {}
-
-.mainnav {
-    position: static;
-}
-
 .mainnav a {
     text-decoration: none;
-    color: #ECEFF3;
+    color: black;
 
 
 }
 
+.mainnav li {
+    display: flex;
+    flex-direction: row;
+}
+
 .mainnav {
 
-    top: 386px;
+    top: 104px;
     font-family: 'Open Sans';
     position: absolute;
-    background-color: #232628;
-    width: 100%;
+    background-color: gainsboro;
+    width: 27%;
+    padding-left: 67rem;
 
 
 }
@@ -570,6 +573,14 @@
         display: none;
     }
 
+    .mainnav {
+        display: none;
+    }
+
+    .mainheader li {
+        display: none;
+    }
+
     .PageContent ul {
         flex-direction: column;
         padding-left: 0%;
@@ -688,14 +699,32 @@
 }
 
 /*Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) and (max-width: 768px) {
 
     /*Ici ton code css pour les téléphone au dessus de 600 px*/
-
     .imagesvehiculeenligne {
         display: none;
     }
 
+    .mainnav {
+        display: none;
+    }
+
+    .mainheader li {
+        display: none;
+    }
+
+    .oneColcontact {
+        background: url(/images/vehicule3.jpg);
+        background-repeat: no-repeat;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        font-family: 'Open Sans';
+    }
 
     .section ul {
         display: flex;
@@ -795,166 +824,29 @@
         margin-left: 6rem;
     }
 
-
-    .Mainfooter li {
-        list-style: none;
-        text-align: center;
-        width: 19rem;
-    }
-
-    .Mainfooter ul {
-        display: flex;
-        flex-direction: row;
-        padding-left: 7rem;
-        padding-right: 7rem;
-    }
-    .frmcontact ul{
-        flex-direction: column;
-    }
-}
-
-
-/* Medium devices (landscape tablets, 768px and down)*/
-
-@media only screen and (max-width: 768px) {
-    /*Ici ton code css pour les tout petit téléphone en dessous de 768px*/
-
-    .imagesvehiculeenligne {
-        display: none;
-    }
-    
-    .section ul {
-        display: flex;
-        justify-content: space-around;
-        padding-right: 0rem;
-        padding-left: 0;
-    }
-
-    .Mainfooter ul {
-        display: flex;
-        flex-direction: row;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .PageContent ul {
-        list-style: none;
-        margin: 2rem;
-        font-family: 'Open Sans';
-        padding-left: 0%;
-        flex-direction: column;
-        padding-right: 0;
-        padding-bottom: 0;
-    }
-
-    .fin {
-        width: auto;
-        height: auto;
-        margin: 1rem;
-        display: flex;
-        padding-left: 0;
-    }
-
-    .leftcol {
-        font-size: smaller;
-    }
-
-    .rightcol {
-        font-size: smaller;
-    }
-
-    .PageContent ol {
-        padding-bottom: 2rem;
-    }
-
-    .logo {
-        width: 40rem;
-        height: auto;
-    }
-
-    .pageContentlocation ul {
-        flex-direction: column-reverse;
-    }
-
-    .recherche {
-        width: 27rem;
-        height: auto;
-        margin-left: 10rem;
-        padding-bottom: 1rem;
-    }
-
-    .logorecherche {
-        height: auto;
-        width: 5rem;
-        margin-left: 5rem;
-    }
-
-    .blogsearch ul {
-        flex-direction: row;
-        width: 10rem;
-    }
-
-    .reset {
-        margin-left: 9rem;
-    }
-
-    .article {
-        margin-left: 2rem;
-        height: 38rem;
-        width: 43rem;
-        text-align: center;
-    }
-
-    .article ul {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .articleGauche {
-        margin-top: 2rem;
-    }
-
-    .imagelocationvehicule {
-        height: 22rem;
-        width: auto;
-        margin-top: 2rem;
-        margin-left: 6rem;
-    }
     .PageContentvehiculedetail {
         margin-left: 1rem;
     }
+
     .photovehiculedetail {
         height: auto;
         width: 43rem;
     }
+
     .PageContentvehiculedetail p {
         width: 43rem;
         height: 32rem;
         margin-bottom: 3rem;
     }
 
-    .frmcontact ul{
+    .frmcontact ul {
         flex-direction: column;
     }
 }
 
+@media only screen and (min-width: 769px) {
 
-
-
-
-/* Medium devices (landscape tablets, 768px and up)*/
-@media only screen and (min-width: 768px) {
-
-    /*Ici ton code css pour les téléphone au dessus de 768px*/
     .menutoggle {
         display: none;
-    }
-
-    .mainnav {
-        position: static;
-    }
-
-    .frmcontact ul {
-        flex-direction: row;
     }
 }
