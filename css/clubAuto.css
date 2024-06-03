@@ -600,11 +600,12 @@
     .leftcol {
         padding: 1rem;
         margin: 1rem;
-
+        font-size: x-small;
     }
 
     .rightcol {
-        margin-top: 8rem;
+        margin-top: 1rem;
+        font-size: x-small;
 
     }
 
@@ -682,6 +683,20 @@
         width: auto;
         height: auto;
         margin: 0rem;
+    }
+
+    .PageContentvehiculedetail {
+        margin: 1rem;
+    }
+
+    .PageContentvehiculedetail p {
+        width: 34rem;
+        height: 43rem;
+    }
+
+    .photovehiculedetail {
+        height: auto;
+        width: 34rem;
     }
 
     .Mainfooter ul {
